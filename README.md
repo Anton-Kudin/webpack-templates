@@ -1,3 +1,2 @@
-**Шаблоны вебпак**
-**1. base-template**
+### Шаблоны webpack ###
 html, css, scss, autoprefixer, cssnano, js - новый синтаксис, jquery
