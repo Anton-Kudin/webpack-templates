@@ -1,0 +1,29 @@
+extends ../layout/main
+
+block variables
+  - var title = 'Webpack + Pug';
+  - var pageClass = 'index-page';
+
+block content
+  section
+    p.mb-10
+      | Это базовый шаблон для верстки сайтов и лендингов. 
+      <br>
+      | Здесь используется:
+      ul.mb-10
+        li - pug
+        li - css
+        li - scss
+        li - autoprefixer
+        li - cssnano
+        li - js - новый синтаксис
+        li - jquery
+        </ul>
+        h2.mb-10 Да прибудут с вами коржи!
+        .corg-one.mb-10
+        .corg-two.mb-10
+        div
+          img(src="assets/img/corg1.jpg", alt="" width="200")
+block script
+  script(type='text/javascript').
+
